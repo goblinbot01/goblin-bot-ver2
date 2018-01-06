@@ -294,4 +294,4 @@ client.on('message', message => {
   }
 });
 // when anything is done, log in the bot with its token
-client.login(config.ClientSuperSecretTokenHere);
+client.login(process.env.BOT_TOKEN);
