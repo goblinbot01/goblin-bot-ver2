@@ -1,0 +1,17 @@
+{
+  "name": "Goblin Bot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "version": "1.0.0",
+  "main": "index-test.js",
+  "scripts": {
+    "start": "node index-test.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0",
+    "ffmpeg": "0.0.4",
+    "ytdl-core": "0.18.5",
+    "fs": "1.0.0",
+    "profanities": "2.6.0"
+  }
+}
